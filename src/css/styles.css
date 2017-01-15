@@ -1,17 +1,73 @@
 .timer{
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 44px;
-	text-align: center;
+	font-size: 70px;
+	color: #EC8554;
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -300px;
 }
-.layout{
-	background-color: #925f46;
+.links{
+	position: absolute;
+	width: 600px;
+	top: 0;
+	left: 50%;
+	margin-top: 180px;
+	margin-left: -300px;
 }
 body{
-	background-color: #925f46;
-	color: #deb29d;
+	background-color: #912F00;
+	color: #672100;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 52px;
+	font-size: 26px;
 }
 h1{
+	color: #EC8554;
 	text-align: center;
+	font-size: 44px;
+	line-height: 44px;
+}
+.titleBox{
+	background-color: #B34510;
+	position: relative;
+	height: 150px;
+	width: 100%;
+	top: 0;
+}
+.title{
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -200px;
+}
+table{
+	width: 100%;
+}
+.tea{
+	text-decoration: none;
+	color: #672100;
+}
+.tea:hover{
+	color: white;
+}
+.black{
+	background-color: 
+	color:;
+}
+.herbal{
+	background-color: green;
+	color: lightgreen;
+}
+th{
+	color: #912F00;
+	background-color: #DC6126;
+}
+td{
+	padding: 2px 20px;
+	line-height: 26px;
+	background-color: #EC8554;
 }

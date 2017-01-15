@@ -32,7 +32,7 @@ export default class Timer extends React.Component{
 		else{
 			return(parseInt(query));
 		}
-		return(minutes+ "minutes" + seconds + "seconds");
+		return(minutes*60+seconds);
 	}
 	componentDidMount(){
 		var query = this.props.params.query;
@@ -48,8 +48,8 @@ export default class Timer extends React.Component{
 			alert("Dein Tee ist fertig!");
 		}
 		return(
-			<div>
-				<p>{parseInt(this.state.seconds/60)} minutes {parseInt(this.state.seconds % 60)} seconds</p>
+			<div className="timer">
+				<div className="timerText">{parseInt(this.state.seconds/60)} minuten {parseInt(this.state.seconds % 60)} sekunden</div>
 			</div>
 		);
 	}
