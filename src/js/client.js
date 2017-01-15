@@ -7,7 +7,7 @@ import Timer from "./components/Timer";
 const app = document.getElementById('app');
 ReactDOM.render(
 	<Router history={hashHistory}>
-		<Route path="(/:query)" component={Timer}>
+		<Route path="/:query" component={Timer}>
 		</Route>
 	</Router>, 
 	app);
