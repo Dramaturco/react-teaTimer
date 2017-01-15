@@ -1,17 +1,20 @@
 import React from "react";
 
+import Timer from "./timer"
+
 export default class Layout extends React.Component {
   constructor() {
     super();
     this.state = {
-      title: "Hallo Anna"
+      title: "Dein Tee ist fertig in"
     };
   }
 
   render(){
     return (
-      <div>
+      <div className="layout">
         <h1>{this.state.title}</h1>
+        <Timer />
       </div>
     );
   }
