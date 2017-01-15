@@ -1,0 +1,17 @@
+.timer{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 44px;
+	text-align: center;
+}
+.layout{
+	background-color: #925f46;
+}
+body{
+	background-color: #925f46;
+	color: #deb29d;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 52px;
+}
+h1{
+	text-align: center;
+}
